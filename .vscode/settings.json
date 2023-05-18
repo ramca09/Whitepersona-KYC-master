@@ -1,0 +1,4 @@
+{
+    "dotenv.enableAutocloaking": false,
+    "cSpell.words": ["birthdate", "sendgrid", "Signup", "wkyc"]
+}

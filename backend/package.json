@@ -1,0 +1,27 @@
+{
+    "name": "whitepersona-kyc-template-backend",
+    "version": "0.0.1",
+    "description": "The backend api for whitepersona-kyc-template",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "mysql": "^2.18.1",
+        "nodemailer": "^6.8.0",
+        "nodemailer-ses-transport": "^1.5.1",
+        "rand-token": "^1.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
